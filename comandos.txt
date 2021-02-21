@@ -1,0 +1,23 @@
+subir archivos menos de 100mb
+(empezando)
+git clone https://link.git
+
+git init
+
+git add .
+
+git commit -m "commit"
+
+git push -u origin Master
+
+
+
+subir archivos largos
+
+git lfs track "*.extension"
+
+git add .gitattributes
+
+git add file.psd
+git commit -m "Add design file"
+git push -u origin Master
